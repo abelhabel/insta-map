@@ -1,3 +1,5 @@
+* URL: https://insta-map.firebaseapp.com
+
 * Location sensitive pictures from instagram on Google Maps.
 
 * Open index.html in a browser to start
