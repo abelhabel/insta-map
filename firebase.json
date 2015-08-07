@@ -1,0 +1,9 @@
+{
+  "firebase": "insta-map",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}

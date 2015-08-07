@@ -1,0 +1,27 @@
+html, body, #map-canvas {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#bodyContent {
+  position: absolute;
+  background-color: #EEEEEE;
+}
+#img_container {
+  position: absolute;
+  display: block;
+  top: 50%;
+  
+  width: 40%;
+  height: 50%;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translateY(-50%) perspective( 600px ) rotateY( 45deg );
+  border: 6px solid black;
+  box-shadow: inset 12px 12px 5px 0px rgba(0,0,0,0.75);
+  border-radius: 60px;
+}
+#img_container img {
+  transform: perspective( 600px ) rotateY( 45deg );
+}
